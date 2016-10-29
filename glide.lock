@@ -1,12 +1,16 @@
-hash: cce7d06909a526178d41d9e8dbb979471778d940480ae885fce0a51079bfb356
-updated: 2016-10-29T14:19:53.098522082+09:00
+hash: 3639dc4413e750bedad9cb06102c29dc2e0d72834f5794fe59dea7037d84abd3
+updated: 2016-10-29T15:38:03.477677475+09:00
 imports:
+- name: github.com/akhenakh/statgo
+  version: 0b405e70c35657f503841e5f7791446d74075c86
 - name: github.com/aws/aws-sdk-go
   version: 4742f4bc1f93f618a2298544cb5f44a5fe91652c
   subpackages:
   - aws
 - name: github.com/bitly/go-simplejson
   version: aabad6e819789e569bd6aabf444c935aa9ba1e44
+- name: github.com/comail/colog
+  version: fba8e7b1f46c3607f09760ce3880066e7ff57c5a
 - name: github.com/pkg/errors
   version: 839d9e913e063e28dfd0e6c7b7512793e0a48be9
 - name: github.com/spf13/viper

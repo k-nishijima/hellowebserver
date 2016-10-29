@@ -6,3 +6,4 @@ import:
 - package: github.com/bitly/go-simplejson
 - package: github.com/pkg/errors
 - package: github.com/spf13/viper
+- package: github.com/comail/colog
