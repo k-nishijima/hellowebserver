@@ -1,11 +1,21 @@
 package main
 
 import (
+	"flag"
+	"strconv"
+
 	"github.com/k-nishijima/hellowebserver"
 )
 
-func main() {
-	var srv hellowebserver.HelloWebServer
+const defaultPort = 3000
 
-	srv.Startup()
+func main() {
+	var port = flag.Int("port", defaultPort, "use")
+	flag.Parse()
+
+	var srv hellowebserver.HelloWebServer
+	config := hellowebserver.HelloWebServerConfig{
+		Port: strconv.Itoa(*port),
+	}
+	srv.Startup(config)
 }

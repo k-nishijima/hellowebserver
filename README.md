@@ -9,3 +9,13 @@
 ```
 $ go run cmd/hellowebserver/main.go
 ```
+
+# flagを使ってコマンドライン・オプション追加
+
+```
+$ go run cmd/hellowebserver/main.go -help
+Usage of /var/folders/58/vsrs9b517qv9gm_vr8nchz380000gn/T/go-build355279879/command-line-arguments/_obj/exe/main:
+  -port int
+        use (default 3000)
+exit status 2
+```

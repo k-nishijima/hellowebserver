@@ -1,9 +1,14 @@
 package hellowebserver
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestStartup(t *testing.T) {
 	var srv HelloWebServer
 
-	srv.Startup()
+	config := HelloWebServerConfig{
+		Port: "1234",
+	}
+	srv.Startup(config)
 }
