@@ -1,0 +1,14 @@
+hash: cce7d06909a526178d41d9e8dbb979471778d940480ae885fce0a51079bfb356
+updated: 2016-10-29T14:19:53.098522082+09:00
+imports:
+- name: github.com/aws/aws-sdk-go
+  version: 4742f4bc1f93f618a2298544cb5f44a5fe91652c
+  subpackages:
+  - aws
+- name: github.com/bitly/go-simplejson
+  version: aabad6e819789e569bd6aabf444c935aa9ba1e44
+- name: github.com/pkg/errors
+  version: 839d9e913e063e28dfd0e6c7b7512793e0a48be9
+- name: github.com/spf13/viper
+  version: 80ab6657f9ec7e5761f6603320d3d58dfe6970f6
+devImports: []

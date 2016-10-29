@@ -1,0 +1,8 @@
+package: github.com/k-nishijima/hellowebserver
+import:
+- package: github.com/aws/aws-sdk-go
+  subpackages:
+  - aws
+- package: github.com/bitly/go-simplejson
+- package: github.com/pkg/errors
+- package: github.com/spf13/viper
