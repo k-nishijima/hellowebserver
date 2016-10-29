@@ -19,3 +19,14 @@ Usage of /var/folders/58/vsrs9b517qv9gm_vr8nchz380000gn/T/go-build355279879/comm
         use (default 3000)
 exit status 2
 ```
+
+# cmdをバイナリとしてインストール
+
+```
+$ cd cmd/hellowebserver/
+$ go install
+$ hellowebserver -help
+Usage of hellowebserver:
+  -port int
+    	use (default 3000)
+```
